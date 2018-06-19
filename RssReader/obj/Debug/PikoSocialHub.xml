@@ -1,0 +1,167 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PikoSocialHub
+</name>
+</assembly>
+<members>
+<member name="T:PikoSocialHub.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.ArrowToRight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.ArrowTRight2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.IconeBasList">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.IconeHautList">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.IconeMoveDown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.IconeMoveUp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PikoSocialHub.My.Resources.Resources.Piko_URls">
+<summary>
+  Looks up a localized string similar to http://www.lemonde.fr/rss/sequence/0,2-3208,1-0,0.xml
+http://rss.news.yahoo.com/rss/terrorism
+http://www.lefigaro.fr/rss/figaro_actualites.xml
+http://www.lefigaro.fr/rss/figaro_sciences.xml
+http://rss.lefigaro.fr/lefigaro/sports
+http://rss.rumeursdunet.com/rss
+http://www.lemonde.fr/rss/sequence/0,2-3476,1-0,0.xml
+test
+.
+</summary>
+</member>
+<member name="T:PikoSocialHub.RSS.RssReader">
+ <summary>
+ Classe permettant de télécharger un flux RSS de façon asynchrone
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:PikoSocialHub.RSS.RssReader.ProgressChanged">
+ <summary>
+ Permet de connaitre l'avance du téléchargement du flux RSS
+ </summary>
+ <param name="Sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="E:PikoSocialHub.RSS.RssReader.Completed">
+ <summary>
+ Signal la fin du téléchargement du flux
+ </summary>
+ <param name="Sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PikoSocialHub.RSS.RssReader.Load(System.Uri)">
+ <summary>
+ Télécharge un flux RSS à partir de l'Uri spécifiée
+ </summary>
+ <param name="Uri">Adresse du flux</param>
+ <remarks></remarks>
+</member>
+<member name="M:PikoSocialHub.RSS.RssReader.Load(System.Uri,System.Object)">
+ <summary>
+ Télécharge un flux RSS à partir de l'Uri spécifiée
+ </summary>
+ <param name="Uri">Adresse du flux</param>
+ <param name="UserState">Objet défini par l'utilisateur retourné à la fin de l'opération asynchrone </param>
+ <remarks></remarks>
+</member>
+<member name="M:PikoSocialHub.RSS.RssReader.Cancel">
+ <summary>
+ Annule le téléchargement du flux
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PikoSocialHub.RSS.RssReader.isBusy">
+ <summary>
+ Détermine si un téléchargement est en cours
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:PikoSocialHub.RSS.RssFeed">
+ <summary>
+ Représente un flux RSS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PikoSocialHub.RSS.RssFeed.Elements">
+ <summary>
+ Liste de tous les éléments d'un flux. Accessible par index ou par nom
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PikoSocialHub.RSS.RssFeed.Items">
+ <summary>
+ Liste des items contenus dans ce flux.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:PikoSocialHub.RSS.RssItem">
+ <summary>
+ Item contenu dans un flux RSS
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PikoSocialHub.RSS.RssItem.Elements">
+ <summary>
+ Liste de tous les éléments d'un item. Accessible par index ou par nom
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:PikoSocialHub.RSS.RssTag">
+ <summary>
+ Elément (propriété) d'un flux ou d'un item RSS
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

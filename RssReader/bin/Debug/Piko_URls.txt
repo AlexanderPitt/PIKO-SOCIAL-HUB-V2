@@ -1,0 +1,9 @@
+http://feeds.feedburner.com/viagrandparis/MBMQ
+http://www.lemonde.fr/rss/sequence/0,2-3208,1-0,0.xml
+http://rss.news.yahoo.com/rss/terrorism
+http://www.lefigaro.fr/rss/figaro_actualites.xml
+http://www.lefigaro.fr/rss/figaro_sciences.xml
+http://rss.lefigaro.fr/lefigaro/sports
+http://rss.rumeursdunet.com/rss
+http://www.lemonde.fr/rss/sequence/0,2-3476,1-0,0.xml
+test
